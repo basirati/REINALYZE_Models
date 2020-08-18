@@ -1,0 +1,775 @@
+************************************************************
+Model: SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+    kernel='rbf', max_iter=-1, probability=False, random_state=None,
+    shrinking=True, tol=0.001, verbose=False)
+
+{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}
+0.00 (+/-0.00) for {'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}
+0.00 (+/-0.00) for {'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}
+0.00 (+/-0.00) for {'C': 10, 'gamma': 0.001, 'kernel': 'rbf'}
+0.00 (+/-0.00) for {'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+0.53 (+/-0.58) for {'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}
+0.00 (+/-0.00) for {'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+0.68 (+/-0.50) for {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}
+0.53 (+/-0.58) for {'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}
+0.67 (+/-0.60) for {'C': 1, 'class_weight': None, 'kernel': 'linear'}
+0.59 (+/-0.30) for {'C': 1, 'class_weight': 'balanced', 'kernel': 'linear'}
+0.64 (+/-0.51) for {'C': 10, 'class_weight': None, 'kernel': 'linear'}
+0.58 (+/-0.50) for {'C': 10, 'class_weight': 'balanced', 'kernel': 'linear'}
+0.61 (+/-0.56) for {'C': 100, 'class_weight': None, 'kernel': 'linear'}
+0.57 (+/-0.45) for {'C': 100, 'class_weight': 'balanced', 'kernel': 'linear'}
+0.57 (+/-0.50) for {'C': 1000, 'class_weight': None, 'kernel': 'linear'}
+0.54 (+/-0.42) for {'C': 1000, 'class_weight': 'balanced', 'kernel': 'linear'}
+
+************************************************************
+Model: SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.0, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=None, penalty='l2',
+              power_t=0.5, random_state=None, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+
+{'alpha': 0.0001, 'loss': 'log'}
+0.54 (+/-0.63) for {'alpha': 0.0001, 'loss': 'hinge'}
+0.59 (+/-0.48) for {'alpha': 0.0001, 'loss': 'log'}
+0.59 (+/-0.46) for {'alpha': 0.0001, 'loss': 'modified_huber'}
+0.01 (+/-0.08) for {'alpha': 0.05, 'loss': 'hinge'}
+0.00 (+/-0.00) for {'alpha': 0.05, 'loss': 'log'}
+0.40 (+/-0.48) for {'alpha': 0.05, 'loss': 'modified_huber'}
+
+************************************************************
+Model: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)
+
+{'C': 4.281332398719396, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0001, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.54 (+/-0.40) for {'C': 0.0001, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0001, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0001, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.00026366508987303583, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.54 (+/-0.40) for {'C': 0.00026366508987303583, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.00026366508987303583, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.00026366508987303583, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0006951927961775605, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.55 (+/-0.44) for {'C': 0.0006951927961775605, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0006951927961775605, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0006951927961775605, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0018329807108324356, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.56 (+/-0.43) for {'C': 0.0018329807108324356, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0018329807108324356, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.0018329807108324356, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.004832930238571752, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.58 (+/-0.45) for {'C': 0.004832930238571752, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.004832930238571752, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.004832930238571752, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.012742749857031334, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.60 (+/-0.49) for {'C': 0.012742749857031334, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.012742749857031334, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.012742749857031334, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.57 (+/-0.58) for {'C': 0.03359818286283781, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.62 (+/-0.52) for {'C': 0.03359818286283781, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.03359818286283781, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.00 (+/-0.00) for {'C': 0.03359818286283781, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.61 (+/-0.53) for {'C': 0.08858667904100823, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.65 (+/-0.47) for {'C': 0.08858667904100823, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.01 (+/-0.09) for {'C': 0.08858667904100823, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.03 (+/-0.20) for {'C': 0.08858667904100823, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.62 (+/-0.51) for {'C': 0.23357214690901212, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.66 (+/-0.42) for {'C': 0.23357214690901212, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.38 (+/-0.39) for {'C': 0.23357214690901212, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.22 (+/-0.50) for {'C': 0.23357214690901212, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.59 (+/-0.41) for {'C': 0.615848211066026, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.63 (+/-0.34) for {'C': 0.615848211066026, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.47 (+/-0.48) for {'C': 0.615848211066026, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.39 (+/-0.52) for {'C': 0.615848211066026, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.65 (+/-0.39) for {'C': 1.623776739188721, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.63 (+/-0.36) for {'C': 1.623776739188721, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.57 (+/-0.60) for {'C': 1.623776739188721, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.60 (+/-0.54) for {'C': 1.623776739188721, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.66 (+/-0.41) for {'C': 4.281332398719396, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.63 (+/-0.36) for {'C': 4.281332398719396, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.64 (+/-0.59) for {'C': 4.281332398719396, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.56 (+/-0.59) for {'C': 4.281332398719396, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.62 (+/-0.46) for {'C': 11.288378916846883, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.64 (+/-0.35) for {'C': 11.288378916846883, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.60 (+/-0.60) for {'C': 11.288378916846883, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.56 (+/-0.60) for {'C': 11.288378916846883, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.60 (+/-0.51) for {'C': 29.763514416313132, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.62 (+/-0.49) for {'C': 29.763514416313132, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.63 (+/-0.51) for {'C': 29.763514416313132, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.60 (+/-0.47) for {'C': 29.763514416313132, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.59 (+/-0.51) for {'C': 78.47599703514607, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.60 (+/-0.49) for {'C': 78.47599703514607, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.62 (+/-0.51) for {'C': 78.47599703514607, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.61 (+/-0.50) for {'C': 78.47599703514607, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.59 (+/-0.52) for {'C': 206.913808111479, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.58 (+/-0.51) for {'C': 206.913808111479, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.62 (+/-0.51) for {'C': 206.913808111479, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.60 (+/-0.50) for {'C': 206.913808111479, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.59 (+/-0.52) for {'C': 545.5594781168514, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.57 (+/-0.49) for {'C': 545.5594781168514, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.61 (+/-0.52) for {'C': 545.5594781168514, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.60 (+/-0.50) for {'C': 545.5594781168514, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.60 (+/-0.52) for {'C': 1438.44988828766, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.56 (+/-0.50) for {'C': 1438.44988828766, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.58 (+/-0.47) for {'C': 1438.44988828766, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.60 (+/-0.49) for {'C': 1438.44988828766, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.58 (+/-0.50) for {'C': 3792.690190732246, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.56 (+/-0.49) for {'C': 3792.690190732246, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.56 (+/-0.48) for {'C': 3792.690190732246, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.57 (+/-0.45) for {'C': 3792.690190732246, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.56 (+/-0.47) for {'C': 10000.0, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+0.57 (+/-0.50) for {'C': 10000.0, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'liblinear'}
+0.56 (+/-0.44) for {'C': 10000.0, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+0.56 (+/-0.46) for {'C': 10000.0, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+0.58 (+/-0.40) for {'C': 0.0001, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.57 (+/-0.41) for {'C': 0.0001, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.41) for {'C': 0.0001, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.0001, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.0001, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.0001, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.57 (+/-0.41) for {'C': 0.00026366508987303583, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.57 (+/-0.41) for {'C': 0.00026366508987303583, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.41) for {'C': 0.00026366508987303583, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.00026366508987303583, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.00026366508987303583, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.00026366508987303583, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.57 (+/-0.41) for {'C': 0.0006951927961775605, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.57 (+/-0.41) for {'C': 0.0006951927961775605, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.41) for {'C': 0.0006951927961775605, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.0006951927961775605, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.0006951927961775605, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.0006951927961775605, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.57 (+/-0.41) for {'C': 0.0018329807108324356, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.57 (+/-0.41) for {'C': 0.0018329807108324356, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.41) for {'C': 0.0018329807108324356, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.0018329807108324356, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.0018329807108324356, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.0018329807108324356, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.60 (+/-0.46) for {'C': 0.004832930238571752, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.60 (+/-0.46) for {'C': 0.004832930238571752, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.60 (+/-0.46) for {'C': 0.004832930238571752, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.004832930238571752, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.004832930238571752, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.004832930238571752, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.62 (+/-0.51) for {'C': 0.012742749857031334, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.62 (+/-0.51) for {'C': 0.012742749857031334, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.62 (+/-0.51) for {'C': 0.012742749857031334, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.012742749857031334, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.012742749857031334, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.012742749857031334, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.63 (+/-0.52) for {'C': 0.03359818286283781, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.63 (+/-0.52) for {'C': 0.03359818286283781, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.63 (+/-0.52) for {'C': 0.03359818286283781, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.03359818286283781, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.03359818286283781, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.03359818286283781, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.63 (+/-0.48) for {'C': 0.08858667904100823, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.63 (+/-0.48) for {'C': 0.08858667904100823, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.63 (+/-0.48) for {'C': 0.08858667904100823, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.00 (+/-0.00) for {'C': 0.08858667904100823, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'C': 0.08858667904100823, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.00 (+/-0.00) for {'C': 0.08858667904100823, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.65 (+/-0.40) for {'C': 0.23357214690901212, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.65 (+/-0.40) for {'C': 0.23357214690901212, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.65 (+/-0.40) for {'C': 0.23357214690901212, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.16 (+/-0.46) for {'C': 0.23357214690901212, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.16 (+/-0.46) for {'C': 0.23357214690901212, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.16 (+/-0.46) for {'C': 0.23357214690901212, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.62 (+/-0.33) for {'C': 0.615848211066026, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.62 (+/-0.33) for {'C': 0.615848211066026, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.62 (+/-0.33) for {'C': 0.615848211066026, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.36 (+/-0.42) for {'C': 0.615848211066026, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.36 (+/-0.42) for {'C': 0.615848211066026, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.36 (+/-0.42) for {'C': 0.615848211066026, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.62 (+/-0.32) for {'C': 1.623776739188721, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.62 (+/-0.34) for {'C': 1.623776739188721, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.62 (+/-0.32) for {'C': 1.623776739188721, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.60 (+/-0.54) for {'C': 1.623776739188721, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.60 (+/-0.54) for {'C': 1.623776739188721, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.60 (+/-0.54) for {'C': 1.623776739188721, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.62 (+/-0.34) for {'C': 4.281332398719396, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.62 (+/-0.34) for {'C': 4.281332398719396, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.62 (+/-0.34) for {'C': 4.281332398719396, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.57 (+/-0.59) for {'C': 4.281332398719396, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.57 (+/-0.59) for {'C': 4.281332398719396, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.59) for {'C': 4.281332398719396, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.63 (+/-0.34) for {'C': 11.288378916846883, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.63 (+/-0.34) for {'C': 11.288378916846883, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.63 (+/-0.34) for {'C': 11.288378916846883, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.56 (+/-0.60) for {'C': 11.288378916846883, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.56 (+/-0.60) for {'C': 11.288378916846883, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.56 (+/-0.60) for {'C': 11.288378916846883, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.58 (+/-0.45) for {'C': 29.763514416313132, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.60 (+/-0.47) for {'C': 29.763514416313132, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.58 (+/-0.45) for {'C': 29.763514416313132, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.60 (+/-0.47) for {'C': 29.763514416313132, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.49) for {'C': 29.763514416313132, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.60 (+/-0.47) for {'C': 29.763514416313132, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.60 (+/-0.49) for {'C': 78.47599703514607, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.61 (+/-0.48) for {'C': 78.47599703514607, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.60 (+/-0.49) for {'C': 78.47599703514607, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.60 (+/-0.47) for {'C': 78.47599703514607, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.43) for {'C': 78.47599703514607, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.60 (+/-0.47) for {'C': 78.47599703514607, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.57 (+/-0.49) for {'C': 206.913808111479, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.59 (+/-0.53) for {'C': 206.913808111479, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.49) for {'C': 206.913808111479, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.58 (+/-0.48) for {'C': 206.913808111479, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.44) for {'C': 206.913808111479, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.58 (+/-0.48) for {'C': 206.913808111479, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.56 (+/-0.49) for {'C': 545.5594781168514, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.60 (+/-0.51) for {'C': 545.5594781168514, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.49) for {'C': 545.5594781168514, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.60 (+/-0.50) for {'C': 545.5594781168514, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.43) for {'C': 545.5594781168514, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.60 (+/-0.50) for {'C': 545.5594781168514, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.55 (+/-0.49) for {'C': 1438.44988828766, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.54) for {'C': 1438.44988828766, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.56 (+/-0.50) for {'C': 1438.44988828766, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.58 (+/-0.48) for {'C': 1438.44988828766, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.44) for {'C': 1438.44988828766, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.58 (+/-0.48) for {'C': 1438.44988828766, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.54 (+/-0.45) for {'C': 3792.690190732246, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.59 (+/-0.54) for {'C': 3792.690190732246, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.56 (+/-0.49) for {'C': 3792.690190732246, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.56 (+/-0.46) for {'C': 3792.690190732246, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.44) for {'C': 3792.690190732246, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.45) for {'C': 3792.690190732246, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.54 (+/-0.45) for {'C': 10000.0, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'lbfgs'}
+0.54 (+/-0.49) for {'C': 10000.0, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+0.55 (+/-0.48) for {'C': 10000.0, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+0.55 (+/-0.42) for {'C': 10000.0, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.58 (+/-0.43) for {'C': 10000.0, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'}
+0.57 (+/-0.45) for {'C': 10000.0, 'class_weight': None, 'penalty': 'l2', 'solver': 'newton-cg'}
+
+************************************************************
+Model: NearestCentroid(metric='euclidean', shrink_threshold=None)
+
+
+************************************************************
+Model: KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+                     weights='uniform')
+
+
+************************************************************
+Model: LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           solver='svd', store_covariance=False, tol=0.0001)
+
+{'solver': 'svd'}
+0.67 (+/-0.60) for {'solver': 'svd'}
+0.18 (+/-0.05) for {'solver': 'lsqr'}
+
+************************************************************
+Model: GaussianNB(priors=None, var_smoothing=1e-09)
+
+
+************************************************************
+Model: ComplementNB(alpha=1.0, class_prior=None, fit_prior=True, norm=False)
+
+
+************************************************************
+Model: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators='warn',
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+{'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.54 (+/-0.50) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.51 (+/-0.45) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.53 (+/-0.47) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.53 (+/-0.47) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.52 (+/-0.44) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.52 (+/-0.47) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.51 (+/-0.49) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.53 (+/-0.47) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.21 (+/-0.45) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.03 (+/-0.15) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.06 (+/-0.24) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.03 (+/-0.15) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.02 (+/-0.10) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.03 (+/-0.20) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.03 (+/-0.20) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.05 (+/-0.21) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.03 (+/-0.20) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.03 (+/-0.20) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.03 (+/-0.17) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+0.15 (+/-0.47) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.12 (+/-0.47) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.08 (+/-0.27) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.11 (+/-0.30) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.18 (+/-0.47) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.14 (+/-0.39) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.14 (+/-0.39) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.14 (+/-0.39) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.16 (+/-0.53) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.03 (+/-0.20) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.10 (+/-0.30) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+0.52 (+/-0.46) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.53 (+/-0.47) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.51 (+/-0.45) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.53 (+/-0.47) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.49 (+/-0.45) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.50 (+/-0.48) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.52 (+/-0.47) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.51 (+/-0.50) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.25 (+/-0.36) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.09 (+/-0.28) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.03 (+/-0.15) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.03 (+/-0.15) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.13 (+/-0.53) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.07 (+/-0.27) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.03 (+/-0.20) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.06 (+/-0.34) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.03 (+/-0.20) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.07 (+/-0.27) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.07 (+/-0.27) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.10 (+/-0.37) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+0.54 (+/-0.53) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.56 (+/-0.52) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.49 (+/-0.46) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.51 (+/-0.45) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.57 (+/-0.50) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.47 (+/-0.47) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.51 (+/-0.48) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.53 (+/-0.47) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.19 (+/-0.53) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.16 (+/-0.32) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.03 (+/-0.15) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.03 (+/-0.15) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.10 (+/-0.30) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.08 (+/-0.27) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.03 (+/-0.20) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.07 (+/-0.27) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.19 (+/-0.53) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.05 (+/-0.21) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.07 (+/-0.27) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.03 (+/-0.20) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.07 (+/-0.27) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.02 (+/-0.09) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.03 (+/-0.15) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.03 (+/-0.20) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+
+************************************************************
+Model: ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+                     max_depth=None, max_features='auto', max_leaf_nodes=None,
+                     min_impurity_decrease=0.0, min_impurity_split=None,
+                     min_samples_leaf=1, min_samples_split=2,
+                     min_weight_fraction_leaf=0.0, n_estimators='warn',
+                     n_jobs=None, oob_score=False, random_state=None, verbose=0,
+                     warm_start=False)
+
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.61 (+/-0.42) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.63 (+/-0.34) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.62 (+/-0.43) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.60 (+/-0.41) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.66 (+/-0.52) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.62 (+/-0.44) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.59 (+/-0.47) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.59 (+/-0.47) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.45 (+/-0.51) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.40 (+/-0.61) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.41 (+/-0.48) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.47 (+/-0.46) for {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.16 (+/-0.46) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.11 (+/-0.30) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.18 (+/-0.40) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.17 (+/-0.39) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.24 (+/-0.56) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.15 (+/-0.39) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.16 (+/-0.32) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.17 (+/-0.39) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.10 (+/-0.37) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.05 (+/-0.21) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.01 (+/-0.08) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.01 (+/-0.08) for {'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.18 (+/-0.47) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.09 (+/-0.38) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.07 (+/-0.45) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.02 (+/-0.11) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': None, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+0.26 (+/-0.50) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.03 (+/-0.20) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.16 (+/-0.46) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.14 (+/-0.39) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.18 (+/-0.47) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.07 (+/-0.45) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.12 (+/-0.47) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.10 (+/-0.37) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.15 (+/-0.44) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.06 (+/-0.34) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.01 (+/-0.08) for {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.16 (+/-0.54) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.02 (+/-0.12) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.01 (+/-0.08) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.09 (+/-0.28) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.01 (+/-0.08) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.01 (+/-0.09) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.01 (+/-0.08) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.06 (+/-0.25) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.03 (+/-0.15) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.01 (+/-0.09) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.09 (+/-0.38) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.05 (+/-0.22) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 5, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+0.62 (+/-0.53) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.61 (+/-0.52) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.64 (+/-0.34) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.60 (+/-0.38) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.56 (+/-0.50) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.58 (+/-0.48) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.61 (+/-0.48) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.54 (+/-0.51) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.41 (+/-0.65) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.50 (+/-0.50) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.44 (+/-0.49) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.44 (+/-0.54) for {'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.39 (+/-0.51) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.14 (+/-0.39) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.17 (+/-0.39) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.14 (+/-0.39) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.07 (+/-0.34) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.15 (+/-0.39) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.14 (+/-0.39) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.14 (+/-0.39) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.12 (+/-0.39) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.01 (+/-0.08) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.01 (+/-0.08) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.01 (+/-0.08) for {'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.09 (+/-0.38) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 15, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+0.58 (+/-0.37) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}
+0.59 (+/-0.38) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+0.64 (+/-0.39) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+0.63 (+/-0.35) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.59 (+/-0.40) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}
+0.60 (+/-0.55) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+0.55 (+/-0.48) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+0.61 (+/-0.49) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 1000}
+0.27 (+/-0.47) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 10}
+0.37 (+/-0.53) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 100}
+0.35 (+/-0.64) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 500}
+0.50 (+/-0.49) for {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 50, 'n_estimators': 1000}
+0.28 (+/-0.53) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 10}
+0.18 (+/-0.51) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+0.15 (+/-0.39) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+0.14 (+/-0.39) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 1000}
+0.20 (+/-0.45) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 10}
+0.15 (+/-0.39) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+0.17 (+/-0.39) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+0.14 (+/-0.39) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 1000}
+0.12 (+/-0.54) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 10}
+0.01 (+/-0.08) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 100}
+0.01 (+/-0.08) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 500}
+0.01 (+/-0.08) for {'max_depth': 30, 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 1000}
+0.08 (+/-0.36) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 1000}
+0.10 (+/-0.29) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 5, 'n_estimators': 1000}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 10}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 100}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 500}
+0.00 (+/-0.00) for {'max_depth': 30, 'min_samples_leaf': 10, 'min_samples_split': 50, 'n_estimators': 1000}
+
+************************************************************
+Model: MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=(100,), learning_rate='constant',
+              learning_rate_init=0.001, max_iter=200, momentum=0.9,
+              n_iter_no_change=10, nesterovs_momentum=True, power_t=0.5,
+              random_state=None, shuffle=True, solver='adam', tol=0.0001,
+              validation_fraction=0.1, verbose=False, warm_start=False)
+
+{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.65 (+/-0.38) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.51 (+/-0.62) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.60 (+/-0.43) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.53 (+/-0.65) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.62 (+/-0.56) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.08 (+/-0.22) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.49 (+/-0.61) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.62 (+/-0.58) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.01 (+/-0.08) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.58 (+/-0.58) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.61 (+/-0.39) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.56 (+/-0.60) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.64 (+/-0.56) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.09 (+/-0.17) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.59 (+/-0.64) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.63 (+/-0.48) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.55 (+/-0.61) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'adam'}
+0.55 (+/-0.55) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.54 (+/-0.61) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.59 (+/-0.47) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.10 (+/-0.29) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.56 (+/-0.47) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.63 (+/-0.57) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.07 (+/-0.27) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.66 (+/-0.48) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.60 (+/-0.52) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.03 (+/-0.20) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.62 (+/-0.57) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.61 (+/-0.44) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.08 (+/-0.24) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.62 (+/-0.52) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.55 (+/-0.56) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.03 (+/-0.20) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.55 (+/-0.49) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'adam'}
+0.58 (+/-0.40) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.09 (+/-0.38) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.55 (+/-0.49) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.58 (+/-0.47) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.05 (+/-0.27) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.57 (+/-0.50) for {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.58 (+/-0.43) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.52 (+/-0.54) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.60 (+/-0.44) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.48 (+/-0.67) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.57 (+/-0.52) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.03 (+/-0.12) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.60 (+/-0.58) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.57 (+/-0.55) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.56 (+/-0.59) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.66 (+/-0.50) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.63 (+/-0.51) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.59 (+/-0.43) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.11 (+/-0.19) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.61 (+/-0.55) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.59 (+/-0.40) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.03 (+/-0.20) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.59 (+/-0.60) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'adam'}
+0.59 (+/-0.45) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.03 (+/-0.20) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.62 (+/-0.44) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.63 (+/-0.48) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.15 (+/-0.16) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.59 (+/-0.52) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.47 (+/-0.53) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.60 (+/-0.59) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.62 (+/-0.40) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.03 (+/-0.20) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.60 (+/-0.60) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.60 (+/-0.46) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.16 (+/-0.17) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.67 (+/-0.47) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.59 (+/-0.47) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.12 (+/-0.38) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.61 (+/-0.52) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'adam'}
+0.62 (+/-0.44) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.15 (+/-0.47) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.59 (+/-0.53) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.59 (+/-0.47) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.04 (+/-0.14) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.57 (+/-0.46) for {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.45 (+/-0.64) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.38 (+/-0.64) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.54 (+/-0.65) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.21 (+/-0.64) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.48 (+/-0.71) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.09 (+/-0.19) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.37 (+/-0.62) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.43 (+/-0.70) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.38 (+/-0.56) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.60 (+/-0.73) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.32 (+/-0.40) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.48 (+/-0.73) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.14 (+/-0.19) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.36 (+/-0.68) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.60 (+/-0.56) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.56 (+/-0.56) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'adam'}
+0.56 (+/-0.56) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.60 (+/-0.45) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.69 (+/-0.50) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.04 (+/-0.15) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.58 (+/-0.58) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.39 (+/-0.68) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.33 (+/-0.72) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.46 (+/-0.75) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.48 (+/-0.62) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.51 (+/-0.52) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.06 (+/-0.18) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.37 (+/-0.68) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.62 (+/-0.42) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.59 (+/-0.52) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'adam'}
+0.56 (+/-0.56) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.61 (+/-0.51) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.62 (+/-0.41) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.13 (+/-0.22) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.60 (+/-0.54) for {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.47 (+/-0.67) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.32 (+/-0.72) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.49 (+/-0.69) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.14 (+/-0.36) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.31 (+/-0.75) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.17 (+/-0.37) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.32 (+/-0.66) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (5, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.55 (+/-0.68) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.44 (+/-0.69) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.55 (+/-0.63) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.06 (+/-0.34) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.46 (+/-0.51) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.60 (+/-0.56) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.08 (+/-0.17) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.29 (+/-0.49) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.62 (+/-0.42) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.58 (+/-0.63) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'constant', 'solver': 'adam'}
+0.50 (+/-0.67) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.62 (+/-0.49) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.62 (+/-0.56) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.09 (+/-0.24) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.61 (+/-0.63) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (50, 5), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.61 (+/-0.37) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.34 (+/-0.61) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'constant', 'solver': 'adam'}
+0.52 (+/-0.73) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.46 (+/-0.72) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.52 (+/-0.73) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.13 (+/-0.17) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.44 (+/-0.71) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 2), 'learning_rate': 'invscaling', 'solver': 'adam'}
+0.67 (+/-0.50) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'sgd'}
+0.64 (+/-0.53) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'constant', 'solver': 'adam'}
+0.66 (+/-0.43) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'lbfgs'}
+0.00 (+/-0.00) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'sgd'}
+0.66 (+/-0.54) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'adaptive', 'solver': 'adam'}
+0.68 (+/-0.44) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'lbfgs'}
+0.13 (+/-0.23) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'sgd'}
+0.62 (+/-0.51) for {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100, 10), 'learning_rate': 'invscaling', 'solver': 'adam'}

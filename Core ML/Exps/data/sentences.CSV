@@ -1,0 +1,24 @@
+Setting the mode to its current value must have no effect on irrigation.
+Users must be able to set the mode. 
+Setting the mode to a different value must result in AquaLush closing all valves.
+Users must be able to set the mode. 
+AquaLush must display the current mode to the user after the user sets the mode.
+Users must be able to set the mode. 
+The current time consists of the current day and the current time of day.
+AquaLush must allow users to set the current time. 
+AquaLush must either not allow an invalid time setting or validate the new time setting.
+AquaLush must allow users to set the current time. 
+If a new time setting fails validation, then AquaLush must notify the user of the problem and not accept the new setting.
+AquaLush must either not allow an invalid time setting or validate the new time setting. 
+AquaLush must display a reset current time to the user.
+AquaLush must allow users to set the current time. 
+If the current time is set so that an irrigation time is skipped, then AquaLush must wait for the next irrigation time. In other words, AquaLush makes no attempt to detect and react to irrigation times skipped as a result of a time setting.
+AquaLush must allow users to set the current time. 
+AquaLush must either not allow an invalid irrigation time setting or validate the new irrigation time setting.
+quaLush must allow the days and time of day when irrigation occurs, called the irrigation time, to be set. 
+If a new irrigation time setting fails validation, then AquaLush must notify the user of the problem and not accept the new setting.
+AquaLush must either not allow an invalid irrigation time setting or validate the new irrigation time setting. 
+If the irrigation time is set when automatic irrigation is in progress, then AquaLush must finish the current irrigation cycle and the new irrigation time must take effect upon completion of the cycle.
+AquaLush must allow the days and time of day when irrigation occurs, called the irrigation time, to be set. 
+AquaLush must display a reset irrigation time to the user.
+AquaLush must allow the days and time of day when irrigation occurs, called the irrigation time, to be set. 
